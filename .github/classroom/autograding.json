@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "test-1",
+      "setup": "",
+      "run": "make test1",
+      "input": "",
+      "output": "503",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "test-2",
+      "setup": "",
+      "run": "make test2",
+      "input": "",
+      "output": "16459",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "test-3",
+      "setup": "",
+      "run": "make test3",
+      "input": "",
+      "output": "4536",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "test-4",
+      "setup": "",
+      "run": "make test4",
+      "input": "",
+      "output": "19068",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
