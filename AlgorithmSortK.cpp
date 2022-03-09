@@ -1,4 +1,6 @@
 #include "AlgorithmSortK.h"
+#include <iostream>
+#include <string>
 
 AlgorithmSortK::AlgorithmSortK(int k) : SelectionAlgorithm(k) {
     this->k = k;
@@ -55,9 +57,6 @@ int AlgorithmSortK::select() {
     delete[] pNums;
     pNums = 0;
     return result;
-
-
-
 
 }
 
