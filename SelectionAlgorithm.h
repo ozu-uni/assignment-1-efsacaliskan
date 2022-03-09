@@ -9,7 +9,6 @@ protected:
 public:
     virtual int select();
     SelectionAlgorithm(int k);
-
 };
 
 #endif 
