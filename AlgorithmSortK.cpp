@@ -1,6 +1,4 @@
 #include "AlgorithmSortK.h"
-#include <iostream>
-#include <string>
 
 AlgorithmSortK::AlgorithmSortK(int k) : SelectionAlgorithm(k) {
     this->k = k;
