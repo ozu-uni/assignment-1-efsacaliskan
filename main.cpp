@@ -27,6 +27,12 @@ int main(int argc, char* argv[]) {
 	cin >> algorithmType;
 	cin >> k;
 	// Create a TestBed object, initialize and execute the algorithm
-	// ...
+	cout << "data from a file : " << algorithmType << "," << k << endl;
+        TestBed* tb = new TestBed();
+        tb->setAlgorithm(algorithmType, k);
+        tb->execute();
+        delete tb;
 	return 0;
 }
+
+
