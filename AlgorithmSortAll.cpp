@@ -1,4 +1,6 @@
 #include "AlgorithmSortAll.h"
+#include <iostream>
+#include <string>
 
 AlgorithmSortAll::AlgorithmSortAll(int k) : SelectionAlgorithm(k) {
     this->k = k;
@@ -40,7 +42,4 @@ int AlgorithmSortAll::select() {
 
     return result;
 
-
-    
-    
 }
