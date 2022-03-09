@@ -1,11 +1,14 @@
-#include "SelectionAlgorithm.h"
+#include <string>
 #include <iostream>
 
 using namespace std;
 
-SelectionAlgorithm::SelectionAlgorithm(int k) {
-    this->k = k;
+#include "SelectionAlgorithm.h"
+
+SelectionAlgorithm::SelectionAlgorithm(int kk) {
+	k = kk;
 }
-int SelectionAlgorithm::select() {
-    return 0;
+
+ int SelectionAlgorithm::  select() {
+	return 0;
 }
