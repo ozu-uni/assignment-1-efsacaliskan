@@ -11,7 +11,6 @@ public:
     AlgorithmSortK(int k);
 
     virtual int select();
-
 };
 
 #endif
