@@ -3,7 +3,6 @@
 #include "SelectionAlgorithm.h"
 
 using namespace std;
-
 SelectionAlgorithm::SelectionAlgorithm(int k) {
 	this->k = k;
 }
