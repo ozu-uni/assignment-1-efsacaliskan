@@ -22,7 +22,6 @@ void TestBed::setAlgorithm(int type, int k) {
     else if (type == 2) {
         algorithm = new AlgorithmSortK(k);
     }
-
 };
 
 TestBed::TestBed() {
